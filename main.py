@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_helper import create_vector_db, get_qa_chain
-st.title("Hi! How can i help you ❓❓")  #we can add emoji using keyword (windows+.)
+st.title("Hi! How can i help you ❓❓") 
 btn = st.button("Create knowledgebase")
 if btn:
     pass
