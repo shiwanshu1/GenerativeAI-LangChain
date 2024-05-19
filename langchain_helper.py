@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 import os
 
-api_key = "AIzaSyDNSjL9LLSsGuqVdVIntcaTfwUbYrtV54k"
+api_key = "Your_api_key"
 llm = GooglePalm(google_api_key=api_key, temperature=0.6)
 
 instructer_embeddings = HuggingFaceInstructEmbeddings()
